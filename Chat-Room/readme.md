@@ -17,7 +17,7 @@ ________________________________________________________________________________
  	syntax-
 	
 	
-			java "filename without extention"
+		java "filename without extention"
  	
 	and then hit enter.
  
