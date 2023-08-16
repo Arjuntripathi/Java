@@ -5,7 +5,7 @@ class Array{
         for(int ar[] : arr){
             for(int a : ar)
                 System.out.print(a+" ");
-            System.out.println("");
+            System.out.println();
         }
     }
     public static void main(String args[]){
