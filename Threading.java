@@ -1,5 +1,6 @@
 import java.lang.Thread;
 
+
 class Mythread1 implements Runnable {
     public void run(){
         while(true){
@@ -19,7 +20,7 @@ class Mythread2 extends Thread {
 public class Threading{
 
     public static void main(String[]args){
-        // using thread as a superclass
+        using thread as a superclass
         Mythread2 mt2 = new Mythread2();
         mt2.start();
 
