@@ -14,7 +14,7 @@ interface Display{
 }
 
 class InterfaceExample implements Display{
-    public int sayHello(String []arg){
+    public int sayHello(String arg){
         System.out.print("Hello "+arg);
         return 2;
     }

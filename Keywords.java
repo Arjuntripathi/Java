@@ -8,27 +8,35 @@
 
  */
 
-class thisExample{
+class ThisExample{
     int num = 1;
-    public thisExample(){
+    public ThisExample(){
         System.out.println("inside constructer");
     }
 
-    public thisExample(int num){
+    public ThisExample(int num){
         this();
         this.num = num;
     }
     
-    void display(){
+    public void display(){
         System.out.println("num: "+num);
     }
     
-    void show(){
+    public void show(){
         this.display();
     }
 }
 
 
 public class Keywords{
-    
+    public static void main(String []args){
+        ThisExample t = new ThisExample();
+
+        ThisExample t2 = new ThisExample(5);
+
+        t.show();
+
+        t2.display();
+    }
 }
