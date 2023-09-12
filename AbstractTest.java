@@ -15,7 +15,7 @@ abstract class Shape{
     }
 }
 
-class Circle extends Shape{
+class Circle extends Shape {
     double radius;
 
     public Circle(double radius, String color){
